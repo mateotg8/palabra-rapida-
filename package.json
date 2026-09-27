@@ -1,0 +1,9 @@
+{
+  "name": "palabra-rapida-online",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servidor de salas online para Palabra Rápida",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "socket.io": "^4.8.1" }
+}
