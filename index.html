@@ -1552,7 +1552,7 @@ input:focus{
 </div>
 
 
-<script src="/socket.io/socket.io.js"></script>
+<script src="https://quick-word-server.onrender.com/socket.io/socket.io.js"></script>
 
 <script>
 
@@ -2309,7 +2309,7 @@ function onlineConnect(){
 
   }
 
-  socket=io();
+  socket=io("https://quick-word-server.onrender.com");
 
   socket.on(
     'connect',
